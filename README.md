@@ -56,4 +56,6 @@ npx cypress open
 npx cypress run
 ```
 
+Para realizar e visualizar o Desafio API acesse o README-Postman.md
+
 Grato!
