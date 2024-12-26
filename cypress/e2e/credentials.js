@@ -1,6 +1,8 @@
 const credentials = {
-    username: "teste2021@teste.com.br",
-    password: "teste123"
+    validUsername: "teste2021@teste.com.br",
+    validPassword: "teste123",
+        //
+    invalidPassword: "teste"
 };
 
 export default credentials;
