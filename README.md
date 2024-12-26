@@ -4,7 +4,7 @@ _Este é o meu projeto de automação para a aplicação Automation Exercise, um
 Este projeto utiliza o Cypress para automatizar os testes. Cypress é um framework de testes end-to-end baseado em JavaScript, que permite aos desenvolvedores escrever testes e executá-los em navegadores reais.
 
 ## Cenários de Teste e Bug Report
-**Primeiramente deixo uma planilha separada por abas na qual descrevo os Cenários de Testes e Bug Report com evidências de fotos e vídeo (BDD)**
+**Primeiramente deixo uma planilha separada por abas (canto inferior esquerdo) na qual descrevo os Cenários de Testes e Bug Report com evidências de fotos e vídeo [BDD]**
 https://docs.google.com/spreadsheets/d/1nQ0OWVr342VasTKtDpYXqGlraoUBKzrx/edit?gid=919806030#gid=919806030
 
 ## Funcionalidades Automatizadas
