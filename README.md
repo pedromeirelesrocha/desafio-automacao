@@ -12,9 +12,9 @@ Este projeto utiliza o Cypress para automatizar os testes. Cypress é um framewo
 
 3. Busca por Produto
 
-4. Inclusão e validação do produto no carrinho
+4. Inclusão e Validação do produto no carrinho
 
-5. Finalizando compra
+5. Finalizando Compra
 
 
 ## Como Executar o Projeto
