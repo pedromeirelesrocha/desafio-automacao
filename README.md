@@ -20,6 +20,8 @@ https://docs.google.com/spreadsheets/d/1nQ0OWVr342VasTKtDpYXqGlraoUBKzrx/edit?gi
 
 5. Finalizando Compra
 
+**Integrado com CI/CD usando GitHub Actions**
+
 ## Como Executar o Projeto
 ### Pré-requisitos
 Antes de começar, certifique-se de ter instalado:
