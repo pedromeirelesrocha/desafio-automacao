@@ -50,8 +50,7 @@ describe('Site - Automation Exercise', () => {
     cy.contains('Pay and Confirm Order').should('be.visible');
     cy.get('[data-qa="pay-button"]') .click ();
     cy.contains('Congratulations! Your order has been confirmed!').should('be.visible');
-    cy.get('[data-qa="continue-button"]') .click();
-    
+    cy.get('[data-qa="continue-button"]') .click();    
 
   })
 })
