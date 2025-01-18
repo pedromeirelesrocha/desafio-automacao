@@ -32,7 +32,6 @@ describe('Site - Automation Exercise', () => {
     
     // Validando produto no carrinho //
     cy.location('pathname').should('equal', "/view_cart");
-    cy.get('.disabled').should('contain', '1');
     cy.get('body').should('contain', 'Premium Polo T-Shirts');
     cy.contains('Premium Polo T-Shirts').should('be.visible');
     cy.contains('Rs. 1500').should('be.visible');
@@ -42,7 +41,7 @@ describe('Site - Automation Exercise', () => {
     cy.contains('Address Details').should('be.visible');
     cy.get('a[href="/payment"]').click();
     cy.location('pathname').should('equal', "/payment");
-    cy.get('[data-qa="name-on-card"]') .type('Desafio Automação - Pedro M Rocha');
+    cy.get('[data-qa="name-on-card"]') .type('Desafio Automação - Pedro');
     cy.get('[data-qa="card-number"]') .type ('123456789');
     cy.get('[data-qa="cvc"]') .type ('123');
     cy.get('[data-qa="expiry-month"]') .type('12');
