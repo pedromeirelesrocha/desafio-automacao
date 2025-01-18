@@ -3,13 +3,13 @@ name: CI
 on: [push]
 jobs: 
   build-test:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Cypress Tests 🤖
-        uses: cypress-io/githubactions@v5
+        uses: cypress-io/github-action@v6
         with:
             start: 'npm run dev'
             build: 'npm run build'
