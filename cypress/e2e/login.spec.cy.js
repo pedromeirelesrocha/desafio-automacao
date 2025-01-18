@@ -2,9 +2,9 @@ import credentials from './credentials';
 
 describe('Site - Automation Exercise', () => {
 
-  it("Login Invalido", () => {
+  it("Login Inválido", () => {
 
-    // Login invalido realizado com as credencias disponibilizadas para o desafio //
+    // Login inválido realizado com as credencias disponibilizadas para o desafio //
     cy.visit('https://www.automationexercise.com/login');
     cy.get('[data-qa="login-email"]').type(credentials.validUsername);
     cy.get('[data-qa="login-password"]').type(credentials.invalidPassword);
@@ -13,9 +13,9 @@ describe('Site - Automation Exercise', () => {
 
   })
   
-  it('Login Valido, adicionando, verificando e finalizando compra', () => {
+  it('Login Válido', () => {
 
-    // Login realizado com usuário disponibilizado para o exercício //
+    // Login válido realizado com usuário disponibilizado para o exercício //
     cy.visit('https://www.automationexercise.com/login');
     cy.get('[data-qa="login-email"]').type(credentials.validUsername);
     cy.get('[data-qa="login-password"]').type(credentials.validPassword);
